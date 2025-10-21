@@ -25,17 +25,17 @@ public class Solution {
 
             }
 
-            System.out.println("Игрок взял " + takePlayer + ". Осталось: " + stones);
+//            System.out.println("Игрок взял " + takePlayer + ". Осталось: " + stones);
 
 
             // Ход компьютера: берём случайно, но не больше остатка
-            int takeBot = Math.min(stones, rand.nextInt(10) + 1);
+//            int takeBot = Math.min(stones, rand.nextInt(10) + 1);
 
-            System.out.println("Компьютер взял " + takeBot + ". Осталось: " + stones);
-            if (stones == 0) {
-                System.out.println("Компьютер победил!");
-                break;
-            }
+//            System.out.println("Компьютер взял " + takeBot + ". Осталось: " + stones);
+//            if (stones == 0) {
+//                System.out.println("Компьютер победил!");
+//                break;
+//            }
         }
     }
 }
