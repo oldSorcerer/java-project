@@ -18,14 +18,14 @@ public class Solution {
 
         // Проверяем делители от 2 до sqrt(n).
         // Условие i <= n / i эквивалентно i*i <= n, но без риска переполнения int.
-        for (/* инициализация */; /* условие */; /* изменение */) {
-//            if (/* условие */) { // Нашли делитель — число составное
-//
-//                break;
-//            }
+        for (int i = 2; i <= secretKeyCandidate /i; i++) {
+            if (secretKeyCandidate % i == 0) { // Нашли делитель — число составное
+                isPrime = false;
+                break;
+            }
         }
 
         // Выводим результат проверки
-
+        System.out.println(isPrime ? "YES" : "NO");
     }
 }
