@@ -4,4 +4,7 @@ public class ModuleHelper {
     // Метод без модификатора доступа — package-private.
     // Доступен только внутри этого же пакета.
 
+    void provideInternalAssistance() {
+        System.out.println( "Предоставляю внутреннюю помощь модуля!");
+    }
 }
