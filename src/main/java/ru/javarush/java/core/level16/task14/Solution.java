@@ -16,9 +16,14 @@ class SecretKeeper {
     // Метод, внутри которого объявляется локальный класс
     public void revealSecret() {
         // Локальный класс, объявленный внутри метода
-
+        class TruthRevealer {
+            public void printSecret() {
+                System.out.println(hiddenSecret);
+            }
+        }
 
         // Создаём объект локального класса и раскрываем секрет
-
+        TruthRevealer truthRevealer = new TruthRevealer();
+        truthRevealer.printSecret();
     }
 }
