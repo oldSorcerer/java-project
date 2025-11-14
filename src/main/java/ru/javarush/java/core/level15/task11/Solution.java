@@ -12,6 +12,22 @@ public class Solution {
         // Проверяем состояние через boolean-геттер и выводим результат
         System.out.println(lamp.isCurrentlyOn());
     }
+
 }
 
 // Класс SmartLamp инкапсулирует состояние лампы
+class SmartLamp {
+    private boolean isCurrentlyOn;
+
+    public SmartLamp() {
+        this.isCurrentlyOn = false;
+    }
+
+    public boolean isCurrentlyOn() {
+        return isCurrentlyOn;
+    }
+
+    public void setCurrentlyOn(boolean newState) {
+        isCurrentlyOn = newState;
+    }
+}
