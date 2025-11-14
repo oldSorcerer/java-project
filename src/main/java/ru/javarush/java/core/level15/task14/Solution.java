@@ -9,6 +9,6 @@ public class Solution {
         System.out.println(card.getStudentName());
 
         // Попытка изменить имя невозможна:
-        card.studentName = "Боб"; // так нельзя — поле приватное и final (ошибка компиляции)
+//        card.studentName = "Боб"; // так нельзя — поле приватное и final (ошибка компиляции)
     }
 }
