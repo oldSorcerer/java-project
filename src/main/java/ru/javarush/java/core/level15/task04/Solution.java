@@ -10,9 +10,9 @@ public class Solution {
         System.out.println(product.getProductName());
 
         // Попытки изменить поля напрямую или через сеттеры невозможны:
-        product.productID = 202;          // ошибка компиляции: поле private
-        product.productName = "Кефир";    // ошибка компиляции: поле private
-        product.setProductID(202);        // ошибка компиляции: метода нет
-        product.setProductName("Кефир");  // ошибка компиляции: метода нет
+//        product.productID = 202;          // ошибка компиляции: поле private
+//        product.productName = "Кефир";    // ошибка компиляции: поле private
+//        product.setProductID(202);        // ошибка компиляции: метода нет
+//        product.setProductName("Кефир");  // ошибка компиляции: метода нет
     }
 }
