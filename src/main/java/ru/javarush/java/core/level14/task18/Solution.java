@@ -12,3 +12,7 @@ public class Solution {
 }
 
 // "Шаблон" книги с начальными значениями полей прямо при объявлении
+class Book {
+    String bookTitle = "Без названия";
+    int pageCount = 100;
+}
