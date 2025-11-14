@@ -11,6 +11,6 @@ public class Solution {
         System.out.println(sum);
 
         // Попытка вызвать приватный метод извне класса приведет к ошибке компиляции.
-        calculator.displayInternalResult(sum); // Ошибка: displayInternalResult(int) has private access in MagicCalculator
+//        calculator.displayInternalResult(sum); // Ошибка: displayInternalResult(int) has private access in MagicCalculator
     }
 }
