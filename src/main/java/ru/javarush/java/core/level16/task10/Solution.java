@@ -8,9 +8,14 @@ interface Communicator {
 public class Solution {
     public static void main(String[] args) {
         // Создаем объект анонимного класса, реализующего Communicator
-
+        Communicator communicator = new Communicator() {
+            @Override
+            public void greet() {
+                System.out.println("Привет, мир!");
+            }
+        };
 
         // Вызываем метод greet(), чтобы вывести приветствие на экран
-
+        communicator.greet();
     }
 }
