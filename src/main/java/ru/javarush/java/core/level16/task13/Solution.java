@@ -13,9 +13,14 @@ class DisplayBoard {
     // Метод, внутри которого объявляется локальный класс
     public void showTemporaryMessage() {
         // Локальный класс доступен только в пределах этого метода
-
+        class GreetingDisplay {
+            public void displayMessage() {
+                System.out.println("Привет из локального класса!");
+            }
+        }
 
         // Создаем объект локального класса и вызываем его метод
-
+        GreetingDisplay greetingDisplay = new GreetingDisplay();
+        greetingDisplay.displayMessage();
     }
 }
