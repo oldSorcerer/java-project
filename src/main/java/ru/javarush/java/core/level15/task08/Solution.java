@@ -16,6 +16,6 @@ public class Solution {
         manager.manageBookInventory();
 
         // Попытка вызова private-метода приведет к ошибке компиляции,
-        manager.handleFinancialAudits();
+//        manager.handleFinancialAudits();
     }
 }
