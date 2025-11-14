@@ -16,5 +16,17 @@ public class Solution {
 
 // Класс Product инкапсулирует название товара
 class Product {
- 
+    private String productName;
+
+    public Product(String productName) {
+        this.productName = productName;
+    }
+
+    public String getProductName() {
+        return productName;
+    }
+
+    public void setProductName(String newProductName) {
+        this.productName = newProductName;
+    }
 }
