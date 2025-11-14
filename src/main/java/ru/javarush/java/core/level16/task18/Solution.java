@@ -2,15 +2,21 @@ package ru.javarush.java.core.level16.task18;
 
 // Класс "умной" коробки с обобщённым типом T
 // Такой класс гарантирует типовую безопасность на этапе компиляции
-
+class  SmartBox<T> {
     // Приватное поле для хранения содержимого коробки
-
+    private T item;
 
     // Помещаем предмет в коробку
-
+    public void store(T item) {
+        this.item = item;
+    }
 
     // Извлекаем содержимое коробки
+    public T getContents() {
+        return item;
+    }
 
+}
 
 public class Solution {
     public static void main(String[] args) {
