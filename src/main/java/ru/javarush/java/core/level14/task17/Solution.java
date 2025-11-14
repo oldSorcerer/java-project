@@ -12,3 +12,7 @@ public class Solution {
 }
 
 // Простой шаблон животного: поля не инициализируются вручную
+class Animal {
+    int animalAge;
+    String animalName;
+}
