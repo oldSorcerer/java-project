@@ -1,4 +1,4 @@
-package level19.task07;
+package ru.javarush.java.core.level19.task07;
 
 // Главный класс с точкой входа
 public class Solution {
