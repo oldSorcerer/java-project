@@ -1,4 +1,4 @@
-package level19.task03;
+package ru.javarush.java.core.level19.task03;
 
 import java.util.ArrayList;
 import java.util.List;
