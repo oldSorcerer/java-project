@@ -1,0 +1,13 @@
+package ru.javarush.java.core.level18.task20;
+
+public class Cat extends Animal{
+
+    public Cat(String name) {
+        super(name);
+    }
+
+    @Override
+    public void makeSound() {
+        System.out.println( getName() + ": Мяу!");
+    }
+}
