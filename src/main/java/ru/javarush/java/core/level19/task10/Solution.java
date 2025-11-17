@@ -1,4 +1,4 @@
-package level19.task10;
+package ru.javarush.java.core.level19.task10;
 
 // Библиотека геометрических фигур: абстракция + конкретные реализации
 public class Solution {
