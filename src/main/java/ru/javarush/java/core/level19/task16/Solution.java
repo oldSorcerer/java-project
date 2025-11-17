@@ -1,4 +1,4 @@
-package level19.task16;
+package ru.javarush.java.core.level19.task16;
 
 // Демонстрация абстракции и полиморфизма на примере обработки заказов
 public class Solution {
