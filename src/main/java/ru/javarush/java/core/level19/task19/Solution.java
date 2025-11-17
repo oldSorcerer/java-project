@@ -1,4 +1,4 @@
-package level19.task19;
+package ru.javarush.java.core.level19.task19;
 
 import java.util.HashMap;
 import java.util.Map;
