@@ -1,4 +1,4 @@
-package level19.task14;
+package ru.javarush.java.core.level19.task14;
 
 public class Solution {
     public static void main(String[] args) {
