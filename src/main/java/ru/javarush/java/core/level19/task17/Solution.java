@@ -1,4 +1,4 @@
-package level19.task17;
+package ru.javarush.java.core.level19.task17;
 
 // Небольшая демонстрация работы
 public class Solution {
