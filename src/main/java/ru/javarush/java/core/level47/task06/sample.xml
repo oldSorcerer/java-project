@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?note created="yes"?>
+<!-- Пример XML для детального прохода StAX -->
+<library>
+    <book id="1">Clean Code</book>
+    <book id="2">
+        <title>Effective Java</title>
+        <author>Joshua Bloch</author>
+    </book>
+    <empty/>
+    <![CDATA[текст в CDATA]]>
+</library>
