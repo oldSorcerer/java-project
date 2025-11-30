@@ -1,0 +1,6 @@
+CRITICAL SYSTEM LOG
+-------------------
+[2025-08-22 10:00:01] Boot sequence started.
+[2025-08-22 10:00:02] Kernel loaded successfully.
+[2025-08-22 10:00:03] Network interfaces up.
+[2025-08-22 10:00:04] Main service started.
