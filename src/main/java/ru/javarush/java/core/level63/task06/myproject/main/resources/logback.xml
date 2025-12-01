@@ -1,0 +1,17 @@
+<!--
+  Конфигурация Logback.
+  Здесь мы настраиваем шаблон лога так, чтобы автоматически подставлять значение из MDC по ключу "requestId".
+  %X{requestId} — это обращение к Mapped Diagnostic Context (MDC) текущего потока.
+-->
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!-- Добавляем в каждую строку лога: время, имя потока, уровень, логгер, сообщение и requestId из MDC -->
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger - %msg | requestId=%X{requestId}%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
